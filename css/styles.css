@@ -1,0 +1,64 @@
+:root {
+    --main-font-color: #ffffff;
+    --icons-background-color: #A79770;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-font-color);
+}
+
+.container h1,
+p {
+    position: absolute;
+}
+
+.container h1 {
+    top: 3vh;
+    font-size: 72px;
+}
+
+.container p {
+    text-align: center;
+    width: 900px;
+    top: 15vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.background-image {
+    position: relative;
+    width: 1200px;
+}
+
+.buttons button {
+    height: 50px;
+    top: 23h;
+
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.button-left {
+    position: absolute;
+    width: 185px;
+    left: 39vw;
+    background-color: var(--icons-background-color);
+    border: 3px solid var(--icons-background-color);
+    color: var(--main-font-color);
+}
+
+.button-right {
+    position: absolute;
+    width: 200px;
+    right: 38vw;
+    background: none;
+    border: 3px solid var(--main-font-color);
+    color: var(--main-font-color);
+}
